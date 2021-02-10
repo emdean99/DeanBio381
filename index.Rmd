@@ -1,0 +1,19 @@
+---
+title: "Homepage"
+author: "Ethan Dean"
+date: "Febuary 2021"
+output:
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
+---
+
+<img src="IMG_9932.jpg" width="300" length="300" />
+
+#### Homework Assignments
+
+##Week 1: **Nothing Due**
+
+##Week 2: **Nothing Due**
+
+##Week 3:
