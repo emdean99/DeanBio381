@@ -1,0 +1,16 @@
+---
+title: "HW2"
+author: "Ethan Dean"
+date: "Feburary 2021"
+output: 
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
+---
+## This is my Homework 2 Page
+
+Hello my name is *Ethan* and I am excited to be working in the class.
+
+My fun fact is I really like **Star Trek** and my favorite series is **The Next Generation** and my favorite character is Data.
+
+<img src="DataTNG.jpg" width="200" length="200" />
