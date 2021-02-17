@@ -8,7 +8,7 @@ output:
     highlight: github
 ---
 
-# Question 1:
+# Question 1: `Convert data columns to csv`
 
 ```
 Find: \h{2,}
@@ -20,7 +20,7 @@ In this section I found the spaces and replaced them with a colon. Since we did 
 
 ___
 
-# Question 2:
+# Question 2: `Convert Name of person and institution format`
 
 ```
 Find: (\w+),\h(\w+),\h(.*)
@@ -32,7 +32,7 @@ In this section I first isolated all of the words because they are the only thin
 
 ___
 
-# Question 3:
+# Question 3: `organize .mp3 to be out of one line and into seperate lines`
 
 ```
 Find: \h\d{4,}
@@ -43,7 +43,7 @@ In this section I noticed that there was a specific sequence of 4 numbers at the
 
 ___
 
-# Question 4:
+# Question 4: `Grab four digit number and put it at the end of a title`
 
 ```
 Find: (\d{4,})\h([^.]+)
@@ -55,7 +55,7 @@ In this section I knew that I just had to switch the `0001` to right after the e
 
 ___
 
-# Question 5:
+# Question 5: `Rearrange species names with to have genus as one letter`
 
 ```
 Find: (\w)\w+,(\w+),\d+\.\d,(\d+)
@@ -67,7 +67,7 @@ Here I started by writing out a function that copied the entire phrase. Then, I 
 
 ___
 
-# Question 6:
+# Question 6: `Organize species names to have genus with one letter and species with 4`
 
 ```
 Find: (\w)\w+,(\w{4})\w+,\d+\.\d,(\d+)
@@ -79,7 +79,7 @@ Since we were starting with the layout from question 5, I was able to keep a lot
 
 ___
 
-# Question 7
+# Question 7 `Combine genus and species names into one word and list other numbers`
 
 ```
 Find: (\w{3})\w+,(\w{3})\w+,(\d+\.\d),(\d+)
