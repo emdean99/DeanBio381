@@ -8,3 +8,18 @@ output:
     highlight: github
 ---
 
+#Question 1:
+
+```
+Find: **\h{2,}**
+
+replace: **\,**
+
+In this section I found the spaces and replaced them with a colon. Since we did not want to mess with the page breaks, we set it to be \h insterad of \s which would mess with line breaks.However, there is a word with a space so a genaric **\h** was not going to work. We used \h{2,} to specify that areas with 2 or more spaces needed to be turned into what we replaced as \,.
+
+```
+___
+
+#Question 2:
+
+```
