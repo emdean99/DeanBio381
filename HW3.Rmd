@@ -8,18 +8,85 @@ output:
     highlight: github
 ---
 
-#Question 1:
+# Question 1:
 
 ```
-Find: **\h{2,}**
+Find: \h{2,}
 
-replace: **\,**
-
-In this section I found the spaces and replaced them with a colon. Since we did not want to mess with the page breaks, we set it to be \h insterad of \s which would mess with line breaks.However, there is a word with a space so a genaric **\h** was not going to work. We used \h{2,} to specify that areas with 2 or more spaces needed to be turned into what we replaced as \,.
-
+replace: \,
 ```
+
+In this section I found the spaces and replaced them with a colon. Since we did not want to mess with the page breaks, we set it to be \h insterad of \s which would mess with line breaks.However, there is a word with a space so a generic \h was not going to work. We used \h{2,} to specify that areas with 2 or more spaces needed to be turned into what we replaced as \,.
+
 ___
 
-#Question 2:
+# Question 2:
 
 ```
+Find: (\w+),\h(\w+),\h(.*)
+
+Replace: \2\ \1\ \(\3\)
+```
+
+In this section I first isolated all of the words because they are the only thing that goes in tact to the second section. I did this by capturing them in the find, using w+ for the name and then .* to capture to the end of the line for the institution. Then, in the replace I listed them out in the appropriate order, using \ with a space to create the seperation between the words.
+
+___
+
+# Question 3:
+
+```
+Find: \h\d{4,}
+
+Replace: \r\1
+```
+In this section I noticed that there was a specific sequence of 4 numbers at the start of every unit. I used this because this is where I knew I needed to have a line break. To do this, I signified that space and 4 number secquence, would simply be replaced by a line break and a 4 letter sequence and it worked.
+
+___
+
+# Question 4:
+
+```
+Find: (\d{4,})\h([^.]+)
+
+Replace: \2_\1
+```
+
+In this section I knew that I just had to switch the 0001 to right after the end of the song. Knowing that it had to go right up to the period and there was not a period ahead, I used the negate to say find everything before the period and this needs to be replaced ahead of the numbers. 
+
+___
+
+# Question 5:
+
+```
+Find: (\w)\w+,(\w+),\d+\.\d,(\d+)
+
+Replace: \1_2,\3
+```
+
+Here I started by writing out a function that copited the entire phrase. Then, I captured the specific sections that I wanted to move to the new replace. I couldn't move the whole \w+ which is the whole first word, so I sectioned off the first character with \w which is just one character and left the \w+ to be the rest of the word. I added in an _ alone because it doesn't need a removal \ to be added.
+
+___
+
+# Question 6:
+
+```
+Find: (\w)\w+,(\w{4})\w+,\d+\.\d,(\d+)
+
+Replace:\1_\2,\3
+```
+
+Since we were starting with the layout from question 5, I was able to keep a lot of the same information because the replace was similar. However, like I did with the first part specifying the first character of the word, I broke off the first 4 characters of the second word and then displaying that instead of the whole word.
+
+___
+
+# Question 7
+
+```
+Find: (\w{3})\w+,(\w{3})\w+,(\d+\.\d),(\d+)
+
+Replace: \1\2,\ \4,\ \3
+```
+
+This one like 6 was not as difficult because I got to start largely with what I had already typed, however it required more modifications than 6 did. In the find I added a lot by specifying the first 3 characters of both the genus and the species. This allowed me to output them together in the \1\2 of the replace as one whole word. Additionally, I needed to change the numbers as there were no longer 3 captures but there were 4 and I also had to add spaces. Once this was done though, my replace worked as planned.
+
+___
