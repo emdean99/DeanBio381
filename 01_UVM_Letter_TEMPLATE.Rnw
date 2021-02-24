@@ -21,11 +21,10 @@
  
 %--------------------------------------
 \begin{tabular}{l@{}}
-  % Nicholas J. Gotelli \\ 
-  % 115 Robinson Parkway \\
+  % Ethan M. Dean \\ 
   % Burlington, Vermont 05401 \\
-  % Phone: (802) 734-9353 \\
-  % Email: ngotelli@uvm.edu
+  % Phone: (802) 867-5309 \\
+  % Email: emdean@uvm.edu
 \end{tabular}
 
 %--------------------------------------
@@ -54,15 +53,13 @@ Dear X:
 
 \begin{tabular}{@{}l}
 Sincerely yours,\\
-\includegraphics[scale=0.15,width=2in]{MySignature.jpg}\\
-Nicholas J. Gotelli, PhD\\
-Professor, Department of Biology\\
+\includegraphics[scale=0.15,width=2in]{sig.png}\\
+Ethan Dean, BS\\
+Student, Department of Biology\\
 University of Vermont\\
 Burlington, VT 05405 USA\\
-802-656-2922\\
-ngotelli@uvm.edu\\
-http://tinyurl.com/gotelli\\
-ORCid:https://orcid.org/0000-0002-5409-7456\\
+802-867-5903\\
+emdean@uvm.edu\\
 \end{tabular}
 %--------------------------------------
 
