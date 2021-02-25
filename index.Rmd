@@ -23,3 +23,5 @@ output:
 * [Homework 4 Typora](HW4.html)
 
 * [Homework 4 LaTeX Latter](01_UVM_Letter_TEMPLATE.pdf)
+
+* [Homework 4 LaTeX Beamer](01_Beamer_TEMPLATE.pdf)

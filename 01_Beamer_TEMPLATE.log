@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.24)  24 FEB 2021 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.24)  24 FEB 2021 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,6 +785,14 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count325
 \@thisrulewidth=\dimen300
 )
+(c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerfontt
+hemeprofessionalfonts.sty)
+(c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamertheme
+Montpellier.sty
+(c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamerouter
+themetree.sty))
+(c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/beamer/beamercolor
+themebeetle.sty)
 (c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-pdftex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
@@ -881,48 +889,6 @@ LaTeX Info: Redefining \nameref on input line 110.
 \@outlinefile=\write5
 \openout5 = `01_Beamer_TEMPLATE.out'.
 
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 110.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 110.
-\symnumbers=\mathgroup6
-\sympureletters=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 110.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 110.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 110.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 110.
-LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 110.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 110.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 110.
 
 (c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/translator/transla
 tor-basic-dictionary-English.dict
@@ -947,20 +913,20 @@ Dictionary: translator-numbers-dictionary, Language: English
 (c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/translator/transla
 tor-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./01_Beamer_TEMPLATE.nav) [1
+) (./01_Beamer_TEMPLATE.nav) [1{c:/Users/deane/AppData/Roaming/TinyTeX/texmf-va
+r/fonts/map/pdftex/updmap/pdftex.map}
 
-{c:/Users/deane/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}]
+]
 (./01_Beamer_TEMPLATE.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 139
+LaTeX Font Info:    Trying to load font information for U+msa on input line 141
 .
 
 (c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 139
+LaTeX Font Info:    Trying to load font information for U+msb on input line 141
 .
 
 (c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -975,22 +941,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [6
 
 ]
-<DataTNG.jpg, id=189, 343.2825pt x 292.09125pt>
-File: DataTNG.jpg Graphic file (type jpg)
-<use DataTNG.jpg>
-Package pdftex.def Info: DataTNG.jpg  used on input line 160.
-(pdftex.def)             Requested size: 307.28987pt x 261.46236pt.
+<great apes.jpg, id=94, 481.8pt x 244.915pt>
+File: great apes.jpg Graphic file (type jpg)
+<use great apes.jpg>
+Package pdftex.def Info: great apes.jpg  used on input line 162.
+(pdftex.def)             Requested size: 307.28987pt x 156.21065pt.
+ [7
 
-Overfull \vbox (19.5114pt too high) detected at line 160
+ <./great apes.jpg>]
+Overfull \hbox (27.50879pt too wide) in paragraph at lines 179--179
+ [] 
  []
 
-[7
-
- <./DataTNG.jpg>] [8
+[8
 
 ] [9
 
-] [10
+]
+Overfull \vbox (7.88225pt too high) detected at line 206
+ []
+
+[10
 
 ]
 \openout4 = `01_Beamer_TEMPLATE.vrb'.
@@ -999,9 +970,14 @@ Overfull \vbox (19.5114pt too high) detected at line 160
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 8.
 
-Overfull \hbox (168.18536pt too wide) in paragraph at lines 13--13
-[]\OT1/cmtt/m/n/12 ##  [1] 0.7783495 0.5265940 0.5725065 0.6379818 0.1305683 0.
-6806948 0.6817846[] 
+Overfull \hbox (143.48535pt too wide) in paragraph at lines 13--13
+[]\OT1/cmtt/m/n/12 ##  [1] 0.66035416 0.41116610 0.58985035 0.92614395 0.572648
+23 0.40287598[] 
+ []
+
+
+Overfull \hbox (7.63528pt too wide) in paragraph at lines 13--13
+[]\OT1/cmtt/m/n/12 ##  [7] 0.22219981 0.04604476 0.44510029 0.16953241[] 
  []
 
 ) [11
@@ -1010,7 +986,7 @@ Overfull \hbox (168.18536pt too wide) in paragraph at lines 13--13
 \openout4 = `01_Beamer_TEMPLATE.vrb'.
 
  (./01_Beamer_TEMPLATE.vrb
-<figure/unnamed-chunk-2-1.pdf, id=319, 180.675pt x 180.675pt>
+<figure/unnamed-chunk-2-1.pdf, id=143, 180.675pt x 180.675pt>
 File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-2-1.pdf>
 Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf  used on input line 6.
@@ -1041,32 +1017,35 @@ Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf  used on input line 6.
 
  (./01_Beamer_TEMPLATE.aux)
 Package rerunfilecheck Info: File `01_Beamer_TEMPLATE.out' has not changed.
-(rerunfilecheck)             Checksum: 0FF89E7BCEA4A88526528588E157D934;377.
+(rerunfilecheck)             Checksum: B6F65A268A579A7509F3E7D1C7160B30;584.
  ) 
 Here is how much of TeX's memory you used:
- 20222 strings out of 480971
- 378940 string characters out of 5906254
- 664617 words of memory out of 5000000
- 36961 multiletter control sequences out of 15000+600000
- 411767 words of font info for 58 fonts, out of 8000000 for 9000
+ 20329 strings out of 480971
+ 383034 string characters out of 5906254
+ 668465 words of memory out of 5000000
+ 37053 multiletter control sequences out of 15000+600000
+ 412016 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 112i,14n,116p,493b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 112i,14n,116p,532b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmitt10.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmss10.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/Users/deane/AppData/Roaming/Ti
-nyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/Users/deane/AppD
-ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/Use
-rs/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-bx10.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmssi12.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssi8.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/Users/deane/AppData/Roa
-ming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on 01_Beamer_TEMPLATE.pdf (16 pages, 144280 bytes).
+/public/amsfonts/cm/cmmi12.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/deane/AppData/Roaming/Tin
+yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/deane/AppData
+/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/Users
+/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12
+.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmss17.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss8.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/deane/AppData/Roaming
+/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/Users/deane/A
+ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:
+/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb>
+Output written on 01_Beamer_TEMPLATE.pdf (16 pages, 166734 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 452 compressed objects within 5 object streams
- 36 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
