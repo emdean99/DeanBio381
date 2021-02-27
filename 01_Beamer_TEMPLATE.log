@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.24)  24 FEB 2021 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.24)  27 FEB 2021 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -957,53 +957,7 @@ Overfull \hbox (27.50879pt too wide) in paragraph at lines 179--179
 
 ] [9
 
-]
-Overfull \vbox (7.88225pt too high) detected at line 206
- []
-
-[10
-
-]
-\openout4 = `01_Beamer_TEMPLATE.vrb'.
-
- (./01_Beamer_TEMPLATE.vrb
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 8.
-
-Overfull \hbox (143.48535pt too wide) in paragraph at lines 13--13
-[]\OT1/cmtt/m/n/12 ##  [1] 0.66035416 0.41116610 0.58985035 0.92614395 0.572648
-23 0.40287598[] 
- []
-
-
-Overfull \hbox (7.63528pt too wide) in paragraph at lines 13--13
-[]\OT1/cmtt/m/n/12 ##  [7] 0.22219981 0.04604476 0.44510029 0.16953241[] 
- []
-
-) [11
-
-]
-\openout4 = `01_Beamer_TEMPLATE.vrb'.
-
- (./01_Beamer_TEMPLATE.vrb
-<figure/unnamed-chunk-2-1.pdf, id=143, 180.675pt x 180.675pt>
-File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
-<use figure/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf  used on input line 6.
-(pdftex.def)             Requested size: 180.67455pt x 180.67455pt.
-) [12
-
- <./figure/unnamed-chunk-2-1.pdf>]
-[13
-
-] [14
-
-]
-\openout4 = `01_Beamer_TEMPLATE.vrb'.
-
- (./01_Beamer_TEMPLATE.vrb) [15
-
-] [16
+] [10
 
 ]
 \tf@nav=\write6
@@ -1020,32 +974,26 @@ Package rerunfilecheck Info: File `01_Beamer_TEMPLATE.out' has not changed.
 (rerunfilecheck)             Checksum: B6F65A268A579A7509F3E7D1C7160B30;584.
  ) 
 Here is how much of TeX's memory you used:
- 20329 strings out of 480971
- 383034 string characters out of 5906254
+ 20226 strings out of 480971
+ 380825 string characters out of 5906254
  668465 words of memory out of 5000000
- 37053 multiletter control sequences out of 15000+600000
- 412016 words of font info for 59 fonts, out of 8000000 for 9000
+ 36974 multiletter control sequences out of 15000+600000
+ 410844 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 112i,14n,116p,532b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 112i,14n,116p,493b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmitt10.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/deane/AppData/Roaming/Tin
-yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/deane/AppData
-/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/Users
-/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12
-.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmss17.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmss8.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Users/deane/AppData/Roaming
-/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/Users/deane/A
-ppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:
-/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msam10.pfb>
-Output written on 01_Beamer_TEMPLATE.pdf (16 pages, 166734 bytes).
+s/cm/cmss10.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss12.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/Users/deane/AppData/Roaming/Tin
+yTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/Users/deane/AppDat
+a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Us
+ers/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+si8.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msam10.pfb>
+Output written on 01_Beamer_TEMPLATE.pdf (10 pages, 117992 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 
