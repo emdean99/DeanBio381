@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.24)  27 FEB 2021 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.2.24)  27 FEB 2021 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -941,15 +941,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [6
 
 ]
-<great apes.jpg, id=94, 481.8pt x 244.915pt>
-File: great apes.jpg Graphic file (type jpg)
-<use great apes.jpg>
-Package pdftex.def Info: great apes.jpg  used on input line 162.
-(pdftex.def)             Requested size: 307.28987pt x 156.21065pt.
+<orang.jpg, id=94, 2409.0pt x 1606.0pt>
+File: orang.jpg Graphic file (type jpg)
+<use orang.jpg>
+Package pdftex.def Info: orang.jpg  used on input line 165.
+(pdftex.def)             Requested size: 145.96455pt x 97.28705pt.
+<chimp.jpg, id=95, 1606.0pt x 1189.44376pt>
+File: chimp.jpg Graphic file (type jpg)
+<use chimp.jpg>
+Package pdftex.def Info: chimp.jpg  used on input line 165.
+(pdftex.def)             Requested size: 145.96455pt x 108.09798pt.
  [7
 
- <./great apes.jpg>]
-Overfull \hbox (27.50879pt too wide) in paragraph at lines 179--179
+ <./orang.jpg> <./chimp.jpg>]
+Overfull \hbox (27.50879pt too wide) in paragraph at lines 182--182
  [] 
  []
 
@@ -957,7 +962,22 @@ Overfull \hbox (27.50879pt too wide) in paragraph at lines 179--179
 
 ] [9
 
-] [10
+]
+\openout4 = `01_Beamer_TEMPLATE.vrb'.
+
+ (./01_Beamer_TEMPLATE.vrb
+<figure/unnamed-chunk-2-1.pdf, id=126, 180.675pt x 180.675pt>
+File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
+<use figure/unnamed-chunk-2-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf  used on input line 7.
+(pdftex.def)             Requested size: 180.67455pt x 180.67455pt.
+)
+Overfull \vbox (1.89014pt too high) detected at line 238
+ []
+
+[10
+
+ <./figure/unnamed-chunk-2-1.pdf>] [11
 
 ]
 \tf@nav=\write6
@@ -974,11 +994,11 @@ Package rerunfilecheck Info: File `01_Beamer_TEMPLATE.out' has not changed.
 (rerunfilecheck)             Checksum: B6F65A268A579A7509F3E7D1C7160B30;584.
  ) 
 Here is how much of TeX's memory you used:
- 20226 strings out of 480971
- 380825 string characters out of 5906254
+ 20264 strings out of 480971
+ 381581 string characters out of 5906254
  668465 words of memory out of 5000000
- 36974 multiletter control sequences out of 15000+600000
- 410844 words of font info for 54 fonts, out of 8000000 for 9000
+ 37004 multiletter control sequences out of 15000+600000
+ 411151 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  112i,14n,116p,493b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfont
@@ -990,10 +1010,10 @@ a/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/Us
 ers/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 si8.pfb><c:/Users/deane/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on 01_Beamer_TEMPLATE.pdf (10 pages, 117992 bytes).
+Output written on 01_Beamer_TEMPLATE.pdf (11 pages, 788181 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 
