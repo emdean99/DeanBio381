@@ -10,6 +10,7 @@ output:
     highlight: github
 ---
 
+# Question 1
 
 ```{r}
 # Question 1
@@ -42,6 +43,11 @@ print(z)
 z <- 3*x^3 + 2*x^2 + 1
 
 print(z)
+```
+
+# Question 2
+
+```{r}
 
 # Question 2
 
@@ -67,7 +73,11 @@ z = 5:1
 vec <- rep(z,x)
 
 print(vec)
+```
 
+# Question 3
+
+```{r}
 # Question 3
 
 # create variables
@@ -88,7 +98,11 @@ polq <- c(r,at)
 # Display the polar quardinates
 
 print(polq)
+```
 
+# Question 4
+
+```{r}
 # Question 4
 
 # Set initial conditions
@@ -146,7 +160,11 @@ print(queue)
 # Determine the position
 
 queue == 'aphid'
+```
 
+# Question 5
+
+```{r}
 # Question 5
 
 # Create sequence
