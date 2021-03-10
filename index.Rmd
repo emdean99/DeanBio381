@@ -27,3 +27,5 @@ output:
 * [Homework 4 LaTeX Beamer](01_Beamer_TEMPLATE.pdf)
 
 ## Week 5: [Homework 5](HW5.html)
+
+## Week 6: [Homework 6](HW6.html)
