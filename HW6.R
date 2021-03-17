@@ -55,7 +55,8 @@ print(MeanL)
 val_eigen<- eigen(m_transpose, symmetric=TRUE)
 
 # Find values and vectors and find what type they are
-# The type of value they both are is double and the type of numbers are not integers
+# The type of value they both are is double and the type of numbers are not integers 
+# it seems like they are imaginary files
 
 val <- val_eigen$values
 
@@ -91,8 +92,9 @@ print(new_list)
 new_vec <- c(my_matrix[2,2],my_logical[2],my_letters[2])
 
 # Type of the new vector with underlying elements
-typeof(new_vec)
-
+typeof(new_list[[1]])
+typeof(new_list[[2]])
+typeof(new_list[[3]])
 #-------------------------
 
 ## Part 3

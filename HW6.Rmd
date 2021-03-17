@@ -61,6 +61,7 @@ val_eigen<- eigen(m_transpose, symmetric=TRUE)
 
 # Find values and vectors and find what type they are
 # The type of number they both are is double
+# it seems like they are imaginary files
 
 val <- val_eigen$values
 
@@ -98,7 +99,9 @@ print(new_list)
 new_vec <- c(my_matrix[2,2],my_logical[2],my_letters[2])
 
 # Type of the new vector with underlying elements
-typeof(new_vec)
+typeof(new_list[[1]])
+typeof(new_list[[2]])
+typeof(new_list[[3]])
 ```
 
 ___
