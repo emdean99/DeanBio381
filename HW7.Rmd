@@ -160,4 +160,5 @@ pSpecial + statSpecial
 
 # Answering questions
 
-## 
+* The two profiles compare pretty well to both of the data that they are collected with.
+* I do think that it is doing a good job simulating the data. The reason that I think this is generally because of their ability to adapt to the shape of the data. Depending on the type of data that is collected, the different distributions will generally have one that matches with the data.
