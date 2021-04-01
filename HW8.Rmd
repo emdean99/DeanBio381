@@ -1,0 +1,191 @@
+---
+title: "HW8"
+author: "Ethan Dean"
+date: "March 31 2021"
+output:
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
+---
+
+# Study System
+
+I am using the example data from an experiment I am creating on CPB. In this I am exposing beetles to curcumin and seeing how that changes their survival because it should cause changes in their epigenetic mechanisms possibly associated with insecticide resistance.
+
+If this were true I would see less survive when exposed to the determined LC50 when exposed to these chemicals.
+
+# Deciding on Data formats
+
+I decided on the values based on my previous research into the topic and talking with the other people in my lab. Generally this is the ideal outcome I would like with a 25% increase in mortality, however when looking at the minimum needed value (helping me determine variance) they said that in my experiment a change of a few percent would still generally be significant.
+
+I also did this many beetles because I cannot do this in lab because of time being an undergraduate, but ideally I would love 1000 replicates.
+
+# Creating Random Data and Analyze the data
+
+```{r}
+library(ggplot2)
+
+# Control survival when exposed to lc50 with survivors being 1
+
+Survival_C = rnorm(1000, mean = 0.5, sd = 1)
+
+# 0.25mg curcumin exposure survival rate
+
+Survival_L = rnorm(1000, mean = 0.35, sd = 1)
+
+# 1mg curcumin exposure survival rate
+
+Survival_H = rnorm(1000, mean = 0.25, sd = 1)
+
+# Organize data ------------------------------
+
+survival_total = data.frame(ID = 1:3000, c(Survival_C, Survival_L, Survival_H), Treatment = c(rep('control', 1000), rep('low_curcumin', 1000), rep('high_curcumin', 1000)))
+
+colnames(survival_total)[2] <- ('Survival')
+
+# analyze the data ------------------------------
+
+summary_surv = summary(survival_total)
+print(summary_surv)
+
+stats <- aov(Survival ~ Treatment, data = survival_total)
+
+stats_sum <- summary(stats)
+
+print(stats_sum)
+
+# create a boxplot ------------------------------
+
+ano_plot <- ggplot(stats) + aes(x = Treatment, y = Survival) + geom_boxplot()
+
+print(ano_plot)
+```
+# Running an additional time
+
+```{r}
+library(ggplot2)
+
+# create data ------------------------------
+
+# Control survival when exposed to lc50 with survivors being 1
+
+Survival_C = rnorm(1000, mean = 0.5, sd = 1)
+
+# 0.25mg curcumin exposure survival rate
+
+Survival_L = rnorm(1000, mean = 0.4, sd = 1)
+
+# 1mg curcumin exposure survival rate
+
+Survival_H = rnorm(1000, mean = 0.25, sd = 1)
+
+# Organize data ------------------------------
+
+survival_total = data.frame(ID = 1:3000, c(Survival_C, Survival_L, Survival_H), Treatment = c(rep('control', 1000), rep('low_curcumin', 1000), rep('high_curcumin', 1000)))
+
+colnames(survival_total)[2] <- ('Survival')
+
+# analyze the data ------------------------------
+
+summary_surv = summary(survival_total)
+print(summary_surv)
+
+stats <- aov(Survival ~ Treatment, data = survival_total)
+
+stats_sum <- summary(stats)
+
+print(stats_sum)
+
+# create a boxplot ------------------------------
+
+ano_plot <- ggplot(stats) + aes(x = Treatment, y = Survival) + geom_boxplot()
+
+print(ano_plot)
+```
+
+# Adjusted Means
+
+```{r}
+library(ggplot2)
+
+# create data ------------------------------
+
+# Control survival when exposed to lc50 with survivors being 1
+
+Survival_C = rnorm(1000, mean = 0.5, sd = 1)
+
+# 0.25mg curcumin exposure survival rate
+
+Survival_L = rnorm(1000, mean = 0.46, sd = 1)
+
+# 1mg curcumin exposure survival rate
+
+Survival_H = rnorm(1000, mean = 0.43, sd = 1)
+
+# Organize data ------------------------------
+
+survival_total = data.frame(ID = 1:3000, c(Survival_C, Survival_L, Survival_H), Treatment = c(rep('control', 1000), rep('low_curcumin', 1000), rep('high_curcumin', 1000)))
+
+colnames(survival_total)[2] <- ('Survival')
+
+# analyze the data ------------------------------
+
+summary_surv = summary(survival_total)
+print(summary_surv)
+
+stats <- aov(Survival ~ Treatment, data = survival_total)
+
+stats_sum <- summary(stats)
+
+print(stats_sum)
+
+# create a boxplot ------------------------------
+
+ano_plot <- ggplot(stats) + aes(x = Treatment, y = Survival) + geom_boxplot()
+
+print(ano_plot)
+
+```
+
+# Minimum Sample
+
+```{r}
+
+# create data ------------------------------
+
+# Control survival when exposed to lc50 with survivors being 1
+
+Survival_C = rnorm(10, mean = 0.5, sd = 1)
+
+# 0.25mg curcumin exposure survival rate
+
+Survival_L = rnorm(10, mean = 0.4, sd = 1)
+
+# 1mg curcumin exposure survival rate
+
+Survival_H = rnorm(10, mean = 0.25, sd = 1)
+
+# Organize data ------------------------------
+
+survival_total = data.frame(ID = 1:3000, c(Survival_C, Survival_L, Survival_H), Treatment = c(rep('control', 1000), rep('low_curcumin', 1000), rep('high_curcumin', 1000)))
+
+colnames(survival_total)[2] <- ('Survival')
+
+# analyze the data ------------------------------
+
+summary_surv = summary(survival_total)
+print(summary_surv)
+
+stats <- aov(Survival ~ Treatment, data = survival_total)
+
+stats_sum <- summary(stats)
+
+print(stats_sum)
+
+# create a boxplot ------------------------------
+
+ano_plot <- ggplot(stats) + aes(x = Treatment, y = Survival) + geom_boxplot()
+
+print(ano_plot)
+
+```

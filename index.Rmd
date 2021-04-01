@@ -30,4 +30,6 @@ output:
 
 ## Week 6: [Homework 6](HW6.html)
 
-## Week 6: [Homework 7](HW7.html)
+## Week 7: [Homework 7](HW7.html)
+
+## Week 8: [Homework 8](HW8.html)
