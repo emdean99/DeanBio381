@@ -22,6 +22,8 @@ I also did this many beetles because I cannot do this in lab because of time bei
 
 # Creating Random Data and Analyze the data
 
+___
+
 ```{r}
 library(ggplot2)
 
@@ -31,11 +33,11 @@ Survival_C = rnorm(1000, mean = 0.5, sd = 1)
 
 # 0.25mg curcumin exposure survival rate
 
-Survival_L = rnorm(1000, mean = 0.35, sd = 1)
+Survival_L = rnorm(1000, mean = 0.4, sd = 1)
 
 # 1mg curcumin exposure survival rate
 
-Survival_H = rnorm(1000, mean = 0.25, sd = 1)
+Survival_H = rnorm(1000, mean = 0.3, sd = 1)
 
 # Organize data ------------------------------
 
@@ -60,7 +62,10 @@ ano_plot <- ggplot(stats) + aes(x = Treatment, y = Survival) + geom_boxplot()
 
 print(ano_plot)
 ```
+
 # Running an additional time
+
+___
 
 ```{r}
 library(ggplot2)
@@ -77,7 +82,7 @@ Survival_L = rnorm(1000, mean = 0.4, sd = 1)
 
 # 1mg curcumin exposure survival rate
 
-Survival_H = rnorm(1000, mean = 0.25, sd = 1)
+Survival_H = rnorm(1000, mean = 0.3, sd = 1)
 
 # Organize data ------------------------------
 
@@ -104,6 +109,10 @@ print(ano_plot)
 ```
 
 # Adjusted Means
+
+The closest I could get was within 4 percent and still get significance. This is actually the perfect percentage that I was hoping to get in the experiments that I am running.
+
+___
 
 ```{r}
 library(ggplot2)
@@ -149,25 +158,29 @@ print(ano_plot)
 
 # Minimum Sample
 
+The lowest I could get here was 360. Even changing a little bit to 350 it seemed made all of the data insignificant. This was good as the sample was cut down close to a third and still showed significance.
+
+___
+
 ```{r}
 
 # create data ------------------------------
 
 # Control survival when exposed to lc50 with survivors being 1
 
-Survival_C = rnorm(10, mean = 0.5, sd = 1)
+Survival_C = rnorm(360, mean = 0.5, sd = 1)
 
 # 0.25mg curcumin exposure survival rate
 
-Survival_L = rnorm(10, mean = 0.4, sd = 1)
+Survival_L = rnorm(360, mean = 0.4, sd = 1)
 
 # 1mg curcumin exposure survival rate
 
-Survival_H = rnorm(10, mean = 0.25, sd = 1)
+Survival_H = rnorm(360, mean = 0.3, sd = 1)
 
 # Organize data ------------------------------
 
-survival_total = data.frame(ID = 1:3000, c(Survival_C, Survival_L, Survival_H), Treatment = c(rep('control', 1000), rep('low_curcumin', 1000), rep('high_curcumin', 1000)))
+survival_total = data.frame(ID = 1:360, c(Survival_C, Survival_L, Survival_H), Treatment = c(rep('control', 360), rep('low_curcumin', 360), rep('high_curcumin', 360)))
 
 colnames(survival_total)[2] <- ('Survival')
 
@@ -187,5 +200,4 @@ print(stats_sum)
 ano_plot <- ggplot(stats) + aes(x = Treatment, y = Survival) + geom_boxplot()
 
 print(ano_plot)
-
 ```
