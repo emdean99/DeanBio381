@@ -145,7 +145,7 @@ data_compile()
 ```
 
 # Question 2
-Here I changed up my graph to output a different type of display which might be useful for seeing the distribution of survivability. This is cool because here you can see the shifting to the left of the trials as there is more curcumin in the diet of the beetles. 
+Here I changed up my graph to output a different type of display which might be useful for seeing the distribution of survivability. This is cool because here you can see the shifting to the left of the trials as there is more curcumin in the diet of the beetles.
 
 ```{r}
 # -----------------------------------

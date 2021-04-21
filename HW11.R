@@ -1,0 +1,115 @@
+# -----------------------------------
+# Homework 11
+# 21 Apr 2021
+# EMD
+# -----------------------------------
+#
+
+# Preliminaries
+library(ggplot2)
+library(tidyverse)
+
+realdata <- read.csv('Real_data.csv')
+
+colnames(realdata) = c('Tempurature', 'Sex', 'Total.egg.mass')
+
+realdata <- realdata %>% select('Tempurature', 'Sex', 'Total.egg.mass')
+
+write.table(realdata, file = 'Real_data2.csv', sep = ',')
+
+
+
+# Set up stats ------------------------------
+# -----------------------------------
+# FUNCTION reg_stats
+# description: fit linear models, extract model stats
+# inputs: 2-column data frame (x and y)
+# outputs: slope, p-value, and r2
+#####################################
+reg_stats <- function(d=NULL) {
+  if(is.null(d)) {
+    x_var <- runif(10)
+    y_var <- runif(10)
+    d <- data.frame(x_var,y_var)
+  }
+  . <- lm(data=d,d[,3]~d[,1])
+  . <- summary(.)
+  stats_list <- list(Slope=.$coefficients[2,1],
+                     pVal=.$coefficients[2,4],
+                     r2=.$r.squared)
+  
+  
+  return(stats_list)
+  
+} # end of reg_stats
+# -----------------------------------
+
+# Make a function to make 3 other data frames of similar type data
+
+fake_data1 <- data.frame(runif(18, max = 45, min = 25), rep(c('Female', 'Male'), 9), runif(18, max = 1.5, min = 0.5))
+colnames(fake_data1) = c('Tempurature', 'Sex', 'Total.egg.mass')
+
+write.table(fake_data1, file = 'Fake_data1.csv', sep = ',')
+
+fake_data2 <-data.frame(runif(18, max = 45, min = 25), rep(c('Female', 'Male'), 9), runif(18, max = 1.5, min = 0.5))
+colnames(fake_data2) = c('Tempurature', 'Sex', 'Total.egg.mass')
+
+write.table(fake_data2, file = 'Fake_data2.csv', sep = ',')
+
+fake_data3 <-data.frame(runif(18, max = 45, min = 25), rep(c('Female', 'Male'), 9), runif(18, max = 1.5, min = 0.5))
+colnames(fake_data3) = c('Tempurature', 'Sex', 'Total.egg.mass')
+
+write.table(fake_data3, file = 'Fake_data3.csv', sep = ',')
+
+# Combine all the files together ------------------------------
+
+file_folder <- 'HW11Data/'
+
+file_names <- list.files(path=file_folder)
+
+print(file_names)
+
+ID <- seq_along(file_names)
+file_name <- file_names
+slope <- rep(NA,length(file_names))
+p_val <- rep(NA,length(file_names))
+r2 <- rep(NA,length(file_names))
+stats_out <- data.frame(ID,file_name,slope,p_val,r2)
+file_out <- "StatsSummary.csv"
+
+# batch process by looping through individuals 
+
+for (i in seq_along(file_names)) {
+  data <- read.table(file=paste(file_folder, file_names[i],
+                                sep=''),
+                     sep=',',
+                     header=TRUE)
+ 
+  d_clean <- data[complete.cases(data),] # subset for clean cases
+  . <- reg_stats(d_clean) # pull out regression stats from clean file
+  stats_out[i,3:5] <- unlist(.) # unlist, copy into last 3 columns 
+}
+
+
+
+
+# set up output file and incorporate time stamp and minimal metadata
+
+write.table(cat("# Summary stats for",
+                "batch processing of regression models",
+                "\n",
+                "# timestamp: ", as.character(Sys.time()),
+                "\n",
+                file=file_out,
+                row.names="",
+                col.names="",
+                sep=""))
+# now add the data frame
+write.table(x=stats_out,
+            file=file_out,
+            row.names=FALSE,
+            col.names=TRUE,
+            sep=",",
+            append = TRUE)
+
+
