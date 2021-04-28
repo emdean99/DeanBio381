@@ -39,3 +39,5 @@ output:
 ## Week 10: [Homework 10](HW10.html)
 
 ## Week 11: [Homework 11](HW11.html)
+
+## Week 12: [Homework 12](HW12.html)
