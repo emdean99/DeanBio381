@@ -70,7 +70,7 @@ b_graph3 <- ggplot(data=d,
                    mapping=aes(x=group,
                                y=weight,
                                fill=group)) + 
-  geom_boxplot() + theme_economist(base_size=10) + labs(title = "Plant Size Vs. Treatment Group", x = "Weight", y = "Treatment Group")
+  geom_boxplot() + theme_economist(base_size=10) + labs(title = "Plant Size Vs. Treatment Group", x = "Treatment Group", y = "Weight")
 print(b_graph3)
 
 # add all the plot data
@@ -78,7 +78,7 @@ b_graph4 <- ggplot(data=d,
                    mapping=aes(x=group,
                                y=weight,
                                fill=group)) + 
-  geom_boxplot() + theme_economist(base_size=10) + labs(title = "Plant Size Vs. Treatment Group", x = "Weight", y = "Treatment Group") + geom_point()
+  geom_boxplot() + theme_economist(base_size=10) + labs(title = "Plant Size Vs. Treatment Group", x = "Treatment Group", y = "Weight") + geom_point()
 print(b_graph4)
 ```
 
@@ -109,7 +109,7 @@ print(theme_graph2)
 
 t_graph2 <- ggplot(data=d2,
                    mapping=aes(x = supp, y = len, fill = supp)) +
-  geom_col(data = d2) + theme_economist(base_size=10) + labs(title = "Cumulative Teeth size", x = "Length", y = "Treatment Group")
+  geom_col(data = d2) + theme_economist(base_size=10) + labs(title = "Cumulative Teeth size", x = "Treatment Group", y = "Length")
 print(t_graph2)
 ```
 
