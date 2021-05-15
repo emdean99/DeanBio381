@@ -1,11 +1,16 @@
-# -----------------------------------
-# Homework 10 for BIO381
-# 14 Apr 2021
-# EMD
-# -----------------------------------
-#
+---
+title: "HW10"
+author: "Ethan Dean"
+date: "5/15/2021"
+output:
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
+---
 
-# Question 1 ------------------------------
+# Question 1 
+
+```{r}
 
 #Setup global variables:
 count <- 0
@@ -25,13 +30,19 @@ counter <- function(x) {
       count <- count + 1 
     }
   }
-  return(count)
+return(count)
 }
 # end of counter
 # -----------------------------------
 counter(x)
 
-# Question 2 ------------------------------
+```
+
+
+
+# Question 2
+
+```{r}
 
 #Preliminaries
 
@@ -42,8 +53,12 @@ x2 <- c(rep(0:1, 1000))
 
 print(counter2 <- length(x2[x2 == 0]))
 
+```
 
-# Question 3 ------------------------------
+# Question 3
+
+
+```{r}
 
 # -----------------------------------
 # FUNCTION matrix
@@ -60,17 +75,19 @@ mat_make <- function(c = 4, r = 5) {
     }
   }
   
-  return(mat)
-  
+return(mat)
+
 } # end of matrix
 
 mat_out <- mat_make()
-
+    
 # -----------------------------------
 
+```
 
+# Question 4
 
-# Question 4 ------------------------------
+```{r}
 
 # Preliminaries
 library(TeachingDemos)
@@ -117,7 +134,7 @@ get_metric <- function(z=NULL) {
     z <- data.frame(ID=seq_ALONG(x_obs),
                     x_obs,
                     y_obs)
-  }
+    }
   
   . <- glm(family = 'binomial', z[,1]~z[,2])
   . <- summary(.)
@@ -216,13 +233,16 @@ slopes <- list(x_obs,x_sim)
 get_pval(slopes)
 plot_ran_test(slopes)
 
-# Question 5 ------------------------------
+```
 
+# Question 5 
 
+```{r}
 
 
 . <- glm(family = 'binomial', df[,1]~df[,2])
 . <- summary(.)
 print(.)
+```
 
-# As we can see our p value with the real data is 0.161 but with the simulated data it is 0.059 for lower and 0.941 for upper. this does not really make sense because we would expect them to be closer or for the lower bound to be half the upper bound or some trend, but we do not see that. However, the code is done right so it might just be the difference between randomized data and a non-randomized sample.
+As we can see our p value with the real data is 0.161 but with the simulated data it is 0.059 for lower and 0.941 for upper. this does not really make sense because we would expect them to be closer or for the lower bound to be half the upper bound or some trend, but we do not see that. However, the code is done right so it might just be the difference between randomized data and a non-randomized sample.
